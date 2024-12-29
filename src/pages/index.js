@@ -1,9 +1,10 @@
+import Home from "@/components/dashboard/Home";
 import React from "react";
 
 const index = () => {
   return (
     <>
-      <div>Dashboard</div>
+      <Home />
     </>
   );
 };

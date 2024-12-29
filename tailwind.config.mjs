@@ -1,11 +1,24 @@
 // @type {import('tailwindcss').Config}
 export default {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx,mjs}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx,mjs}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx,mjs}",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: "640px",
+
+      md: "768px",
+
+      mdd: "800px",
+
+      lg: "1024px",
+
+      xl: "1280px",
+
+      "2xl": "1536px",
+    },
     extend: {
       fontFamily: {
         geist: ["Geist", "serif"],
