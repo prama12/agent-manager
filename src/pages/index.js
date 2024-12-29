@@ -1,12 +1,10 @@
-import Navbar from "@/components/layout/Navbar";
+import Home from "@/components/dashboard/Home";
 import React from "react";
 
 const index = () => {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+      <Home />
     </>
   );
 };
