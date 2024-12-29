@@ -63,7 +63,7 @@ const PersionalDetails = () => {
       <div className="rounded shadow-sm mt-2 flex flex-col-reverse mdd:flex-row mdd:justify-between gap-5 mdd:gap-2 lg:gap-4 p-4 bg-white ">
         {/* image */}
         <div className="flex flex-col mdd:flex-row gap-4 h-fit">
-          <div className="rounded overflow-hidden h-[186px]  relative w-[186px] shadow">
+          <div className="rounded overflow-hidden z-10 h-[186px]  relative w-[186px] shadow">
             <Image src={Photo} alt="hero" objectFit="cover" fill />
           </div>
 
