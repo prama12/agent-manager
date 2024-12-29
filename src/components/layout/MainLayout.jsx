@@ -5,13 +5,16 @@ import SideNav from "./SideNav";
 const MainLayout = ({ children }) => {
   return (
     <>
-      <div className="w-full h-full bg-gray-100">
-        <div className="">
-          <Navbar />
-        </div>
-        <div className="flex h-full">
+      <div className="w-full h-screen no-scrollbar flex flex-col bg-gray-100">
+        {/* navbar here */}
+        <Navbar />
+
+        <div className="flex w-full h-[calc(100vh-65px)]  ">
+          {/* side navbar here */}
           <SideNav />
-          <div className="h-full">{children}</div>
+
+          {/* main content here */}
+          <div className="flex-1 h-full px-5 py-10 overflow-y-auto">{children}</div>
         </div>
       </div>
     </>
