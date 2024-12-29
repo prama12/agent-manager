@@ -106,8 +106,6 @@ const Home = () => {
         <div className=" mt-5">
           {/* top tab for the user details */}
 
-          {/* how to manage this top tab in responsive view */}
-
           <div className="">
             <div className="flex px-3 overflow-x-auto gap-6 no-scrollbar ">
               {topTabs.map((tab) => (
